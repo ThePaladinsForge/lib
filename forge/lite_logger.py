@@ -31,7 +31,7 @@ class LogLevel(IntEnum):
 
 
 class _LiteLog(object):
-    def __init__(self, logger_ref, log_level=LogLevel.INFO):
+    def __init__(self, logger_ref, log_level=LogLevel.VERBOSE):
         self._logger_ref = logger_ref
         self._output_level = log_level
 
